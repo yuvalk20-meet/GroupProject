@@ -55,5 +55,4 @@ $(document).ready(function(){
         alert(name + currentpet[name]);
 
     }
-
 });
