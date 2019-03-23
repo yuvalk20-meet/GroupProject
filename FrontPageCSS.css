@@ -1,3 +1,10 @@
 #buttons {
   color: mediumspringgreen;
 }
+#articles{
+  background-color: lightcoral;
+  width: 500px;
+  border: 50px lightpink;
+  padding: 25px;
+  margin: 25px;
+}
