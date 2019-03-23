@@ -1,5 +1,12 @@
-#buttons {
-  color: mediumspringgreen;
+body{
+  font-family: sans-serif;
+}
+#logo {
+  width: 200px;
+}
+
+.btn {
+  background-color: mediumspringgreen;
 }
 #articles{
   background-color: lightcoral;
