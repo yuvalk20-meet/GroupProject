@@ -8,12 +8,15 @@
   <link rel = "stylesheet" type="text/css" href="FrontPageCSS.css">
 </head>
 <body>
-<div id = "buttons">
-    <a src = 'FrontPage.html'><img id = "logo" src = "adopet_logo.png"></a>
-    <button id = "Signup" class = 'btn'>Sign Up</button>
-    <button id = "ImageG" class = 'btn'>Image Gallery</button>
-    <button id="About" class = 'btn'>About us</button>
-    <button id = "random" class = 'btn'>Random Pet</button>
+
+<ul>
+  <li><a href = 'FrontPage.html'><img id = "logo" src = "adopet_logo.png" alt = "logo"></a></li>
+  <li id = 'signup'><a href="#home" class="active">Sign Up</a></li> <!-- change "active" according to page --!>
+  <li id = 'ImageG'><a href="#news">Image Gallery</a></li>
+  <li id = 'About'><a href="#contact">About Us</a></li>
+  <li id = 'randPet'><a href="#about">Random Pet</a></li>
+</ul>
+
 </div>
 <h1 id = 'petDayHeader'>Pet Of The Day</h1>
 <div id = "DayPet">
@@ -24,8 +27,9 @@
   <p id = 'par4' class = 'DayPetPar'> </p>
   <p id = 'par5' class = 'DayPetPar'> </p>
   <p id = 'par6' class = 'DayPetPar'> </p>
-  <img>
+  <img id="dayImage" src="">
 </div>
+<h1 id = 'findUs'> Find us here!</h1>
 <div class="mapouter" id="map"><div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Iasa&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Werbung: <a href="https://www.pureblack.de">pureblack.de</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:500px;}</style></div>
 <h1 id = 'articlesHeader'>Articles About adoption</h1>
 <div id = 'articles'>
