@@ -1,0 +1,63 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=number],input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+
+  border: none;
+  background: #D1CFC0;
+  border-radius: 12px
+}
+
+/* changing input btn clr when btn is focused*/
+input[type=text]:focus, input[type=number]:focus, input[type=email]:focus {
+  background-color: #C2C2B4;
+  outline: none;
+}
+
+/* style for all btns */
+button {
+  background-color: #D9E3DA;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius: 12px;
+}
+
+button:hover {
+  opacity:1;
+}
+/*adds color*/
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #ECC9C7;
+}
+
+/* width*/
+.cancelbtn, .submit {
+  width: 100%;
+}
+/*padding*/
+.container {
+  padding: 16px;
+}
+
+.modal-content {
+  background-color: #F1EFE2;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
