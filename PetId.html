@@ -6,15 +6,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src = "js.js"></script>
     <link rel = "stylesheet" type="text/css" href="/home/student/Desktop/GroupProject/CSS.css">
+  <link rel = "stylesheet" type="text/css" href="FrontPageFinal.css">
 </head>
 <body>
-<div id = "buttons">
-    <a src = 'FrontPage.html'><img id = "logo" src = "adopet_logo.png"></img></a>
-    <button id = "Signup">Sign Up</button>
-    <button id = "ImageG">Image Gallery</button>
-    <button id="About">About us</button>
-    <button id = "random">Random Pet</button>
-</div>
+
+<!-- Navigation bar --!>
+<ul>
+  <li><a href = 'FrontPageFinal.html'><img id = "logo" src = "adopet_logo.png" alt = "logo"></a></li>
+  <li id = 'Signup'><a href="SignUp.html">Sign Up</a></li> <!-- change "active" according to page --!>
+  <li id = 'ImageG'><a href="PetId.html" class="active">Image Gallery</a></li>
+  <li id = 'About'><a href="AboutUs.html">About Us</a></li>
+  <li id = 'RandPet'><a href="">Random Pet</a></li>
+  <li id = 'Articles'><a href="">Articles</a></li>
+</ul>
+
 <div id="bigdiv">
     <div id="divtext">
         <h3 id="name">name</h3>

@@ -6,7 +6,7 @@ $(document).ready(function() {
     {name: "Bingo", whatami: "dog", age: 3, gender: "Male", favouritefood: "meet", hobbies: "eat", funfact: "I love to sleep with my owners", image:"https://amp.thisisinsider.com/images/5b310c4f5e48ec560b8b45a7-1136-852.jpg"},
     {name: "Moss", whatami: "cat", age: 2, gender: "Male", favouritefood: "bread", hobbies: "travel outside", funfact: "I have a boyfriend🏳‍🌈", image:"https://www.catster.com/wp-content/uploads/2015/06/cat-adoption-tips-3.jpg"},
     {name: "Midelton", whatami: "cat", age: 1, gender: "Male", favouritefood: "everything", hobbies: "eat", funfact: "I'm Moss's boyfriend😻", image:"https://s3-media4.fl.yelpcdn.com/bphoto/RK7t9X-Ii4pRP8vKPcSH1w/348s.jpg"}];
-  let dayPetNum = 0;
+  let dayPetNum = 5;
   let date = new Date();
   let day = date.getDay();
   if(day <= pets.length){

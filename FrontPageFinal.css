@@ -1,0 +1,103 @@
+body{
+  height: 100%;
+  margin: 0;
+  font-size: 18px;
+  font-family: Arial,sans-serif;
+  font-weight: lighter;
+  line-height: 1.8em;
+  color: #666;
+  background-color: #f4f4f4f4;
+}
+
+.img1,.img2,.img3
+{
+  position: relative;
+  background-position: center;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*fixed=parallax*/
+
+
+
+}
+.img1{
+  background-image: url("https://images.pexels.com/photos/374898/pexels-photo-374898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  min-height: 700px;
+  background-size: 95%;
+  margin-top: 100px;
+
+}
+.img2{
+  background-image: url("https://images.pexels.com/photos/730896/pexels-photo-730896.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  min-height: 600px;
+  background-size: 100%;
+
+}
+.img3{
+  background-image: url("https://images.pexels.com/photos/551628/pexels-photo-551628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  min-height: 600px;
+  background-size: 100%;
+
+}
+.section{
+  text-align: center;
+  padding: 50px 70px;
+
+}
+.section-light{
+  background-color: #f4f4f4f4;
+  color: #282e34;
+
+
+}
+
+.section-grey{
+  background-color: #A5c5C3;
+  color: white;
+
+
+}
+.section-Dark {
+  background-color: #282e34;
+  color: #f4f4f4f4;
+}
+.text1{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #A5c5C3;
+}
+
+#logo {
+  width: 200px;
+}
+#findUs{
+  text-align: center;
+}
