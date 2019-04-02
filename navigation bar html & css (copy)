@@ -1,0 +1,46 @@
+HTML:
+
+<!-- navigation bar --!>
+<!-- change "active" according to page --!>
+<ul>
+  <li><a href = 'FrontPageFinal.html'><img id = "logo" src = "adopet_logo.png" alt = "logo"></a></li>
+  <li id = 'Signup'><a href="SignUp.html">Sign Up</a></li>
+  <li id = 'ImageG'><a href="Gallery">Image Gallery</a></li>
+  <li id = 'About'><a href="AboutUs.html">About Us</a></li>
+  <li id = 'RandPet'><a href="randomPet.html" class="active">Random Pet</a></li>
+  <li id = 'Articles'><a href="">Articles</a></li>
+</ul>
+
+
+CSS:
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #A5c5C3;
+}
+
+#logo {
+  width: 200px;
+}
