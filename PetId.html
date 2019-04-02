@@ -5,16 +5,17 @@
     <title></title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src = "js.js"></script>
+    <script src = "petId.js"></script>
     <link rel = "stylesheet" type="text/css" href="/home/student/Desktop/GroupProject/CSS.css">
   <link rel = "stylesheet" type="text/css" href="FrontPageFinal.css">
 </head>
 <body>
 
-<!-- Navigation bar --!>
+
 <ul>
   <li><a href = 'FrontPageFinal.html'><img id = "logo" src = "adopet_logo.png" alt = "logo"></a></li>
-  <li id = 'Signup'><a href="SignUp.html">Sign Up</a></li> <!-- change "active" according to page --!>
-  <li id = 'ImageG'><a href="PetId.html" class="active">Image Gallery</a></li>
+  <li id = 'Signup'><a href="SignUp.html">Sign Up</a></li>
+  <li id = 'ImageG'><a href="Gallery.html" class="active">Image Gallery</a></li>
   <li id = 'About'><a href="AboutUs.html">About Us</a></li>
   <li id = 'RandPet'><a href="randomPet.html">Random Pet</a></li>
   <li id = 'Articles'><a href="">Articles</a></li>
@@ -22,9 +23,10 @@
 
 <div id="bigdiv">
     <div id="divtext">
-        <h3 id="name">name</h3>
+        <h3 id="name"></h3>
         <h3 id="specie"></h3>
-        <h3 id="agender"></h3>
+        <h3 id="age"></h3>
+        <h3 id="gender"></h3>
         <h3 id="favfood"></h3>
         <h3 id="hobbies"></h3>
         <h3 id="funfact"></h3>
@@ -33,5 +35,6 @@
         <img id="petimg" src="">
     </div>
 </div>
+<a href="Gallery.html"><button>Back to Image Gallery</button></a>
 </body>
 </html>

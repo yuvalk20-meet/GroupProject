@@ -28,31 +28,4 @@ $(document).ready(function(){
         {name: "Midelton", whatami: "cat", age: 1, gender: "Male", favouritefood: "everything", hobbies: "eating", funfact: "I'm Moss's boyfriend😻", image:"https://s3-media4.fl.yelpcdn.com/bphoto/RK7t9X-Ii4pRP8vKPcSH1w/348s.jpg"}
     ];
 
-    $("#img0").click( function() {
-        OpenPetId(0);
-    });
-
-    $("#img1").click( function() {
-        OpenPetId(1);
-    });
-
-    $("#img2").click( function() {
-        OpenPetId(2);
-    });
-    $("#img3").click( function() {
-        OpenPetId(3);
-    });
-    $("#img4").click( function() {
-        OpenPetId(4);
-    });
-    $("#img5").click( function() {
-        OpenPetId(5);
-    });
-
-    function OpenPetId(ImageNum) {
-        let currentpet = pet[ImageNum];
-        idname.text(namet + currentpet[name].toString());
-        alert(name + currentpet[name]);
-
-    }
 });
